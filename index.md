@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## Alberto Testoni
 
-You can use the [editor on GitHub](https://github.com/albertotestoni/albertotestoni.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I am a Ph.D. student at the [ICT International Doctoral School](https://ict.unitn.it/) - [University of Trento](https://www.unitn.it/en) under the supervision of [Raffaella Bernardi](http://disi.unitn.it/~bernardi/).
 
 ### Markdown
 
