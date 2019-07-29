@@ -1,4 +1,4 @@
-![](me.jpeg){:height="2px" width="2px"}
+![](me.jpeg)
 
 ## Alberto Testoni
 
