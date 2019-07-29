@@ -1,4 +1,4 @@
-![](me.jpeg)
+
 
 ## Alberto Testoni
 
