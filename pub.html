@@ -1,0 +1,162 @@
+<html>
+  <head>
+      <title>Alberto Testoni - Publications</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+        <style>
+
+
+      .panel-home{
+
+        width:auto;
+        height:250px;
+      }
+
+
+      .doc {
+        color:#2ecc71;
+      }
+
+      .panel-heading{
+        text-align: center;
+        font-weight: bold;
+        font-size: 150%;
+      }
+
+      p a{
+        color: blue;
+      }
+
+      #me{
+        max-width: 13%;
+        height: auto;
+        border-radius: 50%;
+      }
+
+      div .row{
+        margin-right: 0;
+      }
+
+      #lg1,#lg2,#lg3{
+        max-height: 200px;
+        min-height:200px;
+        overflow-y: scroll;
+      }
+
+      select{
+        width: 100%;
+        text-overflow: ellipsis;
+      }
+
+      li{
+        font-family: 'Shift', sans-serif;
+        font-size: 120%
+      }
+
+      .navbar-brand{
+        font-weight: bold;
+      }
+
+      #jumbo {
+  padding: 0px;
+}
+
+.container-fluid{
+    background-color:#2ecc71;
+  }
+
+  .navbar-inverse .navbar-nav>li>a{
+    color:white;
+  }
+
+  .navbar-inverse .white{
+    color:white;
+    font-weight: bold;
+    font-size:110%;
+  }
+
+  #all{
+    margin-right: 30px;
+    margin-left: 10px;
+  }
+
+  .glyphicon-home{
+    font-size: 120%;
+  }
+
+    .navbar-brand{
+    padding-left: 20px;
+  }
+        </style>
+
+    </head>
+
+  <body>
+      <div class="aaa">
+      
+      <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+        <a class="navbar-brand white" href="index.html"><span class="glyphicon glyphicon-home"></span></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a class= "white" href="index.html">Home</a></li>
+        <li class="active"><a class= "white" href="pub.html">Publications</a></li>
+        <li><a class= "white" href="CV_Testoni.pdf" target="_blank">CV</a></li>
+        <li><a class= "white" href="#" data-toggle="modal" data-target="#contacts">Contacts</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+      </div>
+      <div id="all">
+      <h1 style="text-align:center;">Full List of Publications </h1>
+      <br>
+      <ul id="pub_list" style="font-size: 120%">
+                    <p><li><b>Testoni, A. </b>, Shekhar, R., Fernández, R., & Bernardi, R., The Devil is in the Details: A Magnifying Glass for the GuessWhich Visual Dialogue Game, (to appear in) Proceedings of the 23rd Workshop on the Semantics and Pragmatics of Dialogue - SemDial, 2019.</li></p>
+                    <p><li><b>Testoni, A.</b>, Pezzelle, S., & Bernardi, R. Quantifiers in a Multimodal World: Hallucinating Vision with Language and Sound. In Proceedings of the Workshop on Cognitive Modeling and Computational Linguistics (pp. 105-116), NAACL HLT, 2019. <a href="https://www.aclweb.org/anthology/papers/W/W19/W19-2912/" target="_blank" rel="noopener noreferrer">[PDF]</a></li></p>
+                    <p><li>Vu, H., Greco, C., Erofeeva, A., Jafaritazehjan, S., Linders, G., Tanti, M., <b>Testoni, A. </b>, Bernardi, R., & Gatt, A. Grounded Textual Entailment. In Proceedings of the 27th International Conference on Computational Linguistics (pp. 2354-2368), 2018. <a href="https://www.aclweb.org/anthology/C18-1199" target="_blank" rel="noopener noreferrer">[PDF]</a></li></p>
+                    <p><li><b>Testoni, A.</b>, & Di Felice, M. A software architecture for generic human activity recognition from smartphone sensor data. In 2017 IEEE International Workshop on Measurement and Networking (M&N) (pp. 1-6). IEEE, 2017. <a href="https://ieeexplore.ieee.org/abstract/document/8078368/" target="_blank" rel="noopener noreferrer">[PDF]</a></li></p>
+
+                  </ul>
+    </div>
+
+<script>
+function pub() {
+  $("#all").load("pub.html");
+}
+</script>
+
+        <!-- <script type="text/javascript" src="js/documents.js"  ></script>
+        <script type="text/javascript" src="js/home.js"></script> -->
+    </body>
+
+<div id="contacts" class="modal fade" aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button data-dismiss="modal" class="close" type="button"><span aria-hidden="true">×</span></button>
+            <h4 class="modal-title">Contacts</h4>
+        </div>
+        <div class="modal-body">
+            <li><b>Personal email</b>: alberto.testoni2 [AT] gmail [DOT] com</li>
+                    <li><b>Google Scholar</b>: <a href="https://scholar.google.com/citations?user=gGdWaH4AAAAJ&hl=it" target="_blank">Alberto Testoni</a></li>
+                    <li><b>Twitter</b>: <a href="https://twitter.com/alberto_testoni" target="_blank">alberto_testoni</a></li>
+        </div>
+    </div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+</div>
+
+</html>
