@@ -81,7 +81,7 @@
   .navbar-inverse .white{
     color:white;
     font-weight: bold;
-    font-size:110%;
+    font-size:115%;
   }
 
   #all{
@@ -89,8 +89,8 @@
     margin-left: 10px;
   }
 
-  .glyphicon-home{
-    font-size: 120%;
+  .glyphicon{
+    font-size: 130%;
   }
 
     .navbar-brand{
@@ -101,12 +101,25 @@
     #pub_list{
       font-size:140%;
     }
+
+    #logo_h{
+      display: none;
+    }
   }
 
   @media (max-width: 768px) {
     #pub_list{
       font-size:110%;
     }
+  }
+
+  #fff{
+  padding-left: 25px;
+}
+
+  .navbar-brand{
+    padding-left: 10px;
+    padding-right: 15px;
   }
         </style>
 
@@ -123,7 +136,10 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-        <a class="navbar-brand white" href="index.html"><span class="glyphicon glyphicon-home"></span></a>
+        <a class="navbar-brand white" href="index.html" id="fff"><span class="glyphicon glyphicon-home"></span></a>
+        <a class="navbar-brand white" href="pub.html" id="logo_h"><span class="glyphicon glyphicon-duplicate"></span></a>
+        <a class="navbar-brand white" href="CV_Testoni.pdf" id="logo_h"><span class="glyphicon glyphicon-list-alt"></span></a>
+        <a class="navbar-brand white" href="#" data-toggle="modal" data-target="#contacts" id="logo_h"><span class="glyphicon glyphicon-user"></span></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
