@@ -11,7 +11,7 @@
 <header class="site-header">
 <div class="header-inner">
 <a class="brand" href="index.html">Alberto Testoni</a>
-<div class="header-controls"><button aria-label="Toggle dark mode" class="theme-toggle" title="Toggle dark mode" type="button"><span aria-hidden="true" class="theme-icon">◐</span><span class="theme-text">Dark mode</span></button><button aria-expanded="false" aria-label="Toggle navigation" class="nav-toggle" type="button">Menu</button></div>
+<div class="header-controls"><button aria-label="Toggle dark mode" class="theme-toggle" title="Toggle dark mode" type="button"><span aria-hidden="true" class="theme-icon">◐</span><span class="theme-text">Dark</span></button><button aria-expanded="false" aria-label="Toggle navigation" class="nav-toggle" type="button">Menu</button></div>
 <nav class="site-nav">
 <ul>
 <li><a href="index.html">Home</a></li>
@@ -90,7 +90,7 @@
   function updateThemeButton() {
     if (!themeText) return;
     const effective = getEffectiveTheme();
-    themeText.textContent = effective === 'dark' ? 'Light mode' : 'Dark mode';
+    themeText.textContent = effective === 'dark' ? 'Light' : 'Dark';
   }
 
   updateThemeButton();
