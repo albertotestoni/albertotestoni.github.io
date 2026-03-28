@@ -1,288 +1,147 @@
-<html>
-	<head>
-    	<title>Alberto Testoni</title>
-        <meta charset="utf-8">
-      	<meta name="viewport" content="width=device-width, initial-scale=1">
-     	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-      <link rel="shortcut icon" type="image/png" href="logo_webiste.png" />
+<!DOCTYPE html>
 
-
-        <style>
-
-
-			.panel-home{
-
-				width:auto;
-				height:250px;
-			}
-
-
-      .doc {
-        color:#2ecc71;
-      }
-
-			.panel-heading{
-				text-align: center;
-				font-weight: bold;
-        /*font-size: 150%;*/
-			}
-
-			p a{
-				color: blue;
-			}
-
-      #me{
-        max-width: 15%;
-        min-width: 120px;
-        height: auto;
-        border-radius: 50%;
-        float: left;
-        margin-right: 7px; 
-      }
-
-			div .row{
-				margin-right: 0;
-			}
-
-      #lg1,#lg2,#lg3{
-        max-height: 200px;
-        min-height:200px;
-        overflow-y: scroll;
-        padding-left: 25px;
-      }
-
-			select{
-				width: 100%;
-				text-overflow: ellipsis;
-			}
-
-      li{
-        font-family: 'Shift', sans-serif;
-        /*font-size: 120%*/
-      }
-
-      .navbar-brand{
-        font-weight: bold;
-      }
-
-			#jumbo {
-  padding: 0px;
-}
-
-.container-fluid{
-    background-color:#28b564;
-  }
-
-  .navbar-inverse .navbar-nav>li>a{
-    color:white;
-  }
-
-
-  .navbar-inverse .white{
-    color:white;
-    font-weight: bold;
-    font-size:115%;
-  }
-
-  .black{
-    color:black;
-    font-weight: bold;
-    font-size:115%;
-  }
-
-    .glyphicon{
-    font-size: 130%;
-  }
-
-  .navbar-brand{
-    padding-left: 10px;
-    padding-right: 15px;
-  }
-
-
-@media (min-width: 768px) {
-    #descr{
-        /* font-size: 22px; */
-        font-size: 150%;
-    }
-
-    .panel-home{
-      font-size:130%;
-    }
-
-    #logo_h, #fff{
-      display: none;
-    }
-
-    #name{
-      font-size: 280%;
-    }
-
-}
-
-@media (max-width: 768px) {
-    #descr{
-        /* font-size: 16.5px; */
-        font-size: 115%;
-    }
-
-    /*#tit_tab, #lg1{
-        font-size: 110%;
-    }*/
-
-    .panel-home{
-      font-size:110%;
-    }
-}
-
-#fff{
-  padding-left: 25px;
-}
-
-
-
-
-        </style>
-
-    </head>
-
-	<body>
-			<div class="aaa">
-    	
-      <nav class="navbar navbar-inverse">
-  <div class="container-fluid navbar-fixed-top">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-        <a class="navbar-brand black" href="/" id="fff"><span class="glyphicon glyphicon-home" style="color: black;"></span></a>
-        <a class="navbar-brand white" href="pub.html" id="logo_h"><span class="glyphicon glyphicon-duplicate"></span></a>
-        <a class="navbar-brand white" href="curriculum.html" id="logo_h"><span class="glyphicon glyphicon-list-alt"></span></a>
-        <a class="navbar-brand white" href="#" data-toggle="modal" data-target="#contacts" id="logo_h"><span class="glyphicon glyphicon-user"></span></a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <!-- <li class="active"><a href="index.html" class= "white">Home</a></li> -->
-        <li class="active"><a href="/" class= "white"><span class="glyphicon glyphicon-home"></span> Home</a></li>
-        <li><a class= "white" href="pub.html"><span class="glyphicon glyphicon-duplicate"></span> Publications</a></li>
-        <li><a class= "white" href="curriculum.html"><span class="glyphicon glyphicon-list-alt"></span> CV</a></li>
-        <li><a class= "white" href="#" data-toggle="modal" data-target="#contacts"><span class="glyphicon glyphicon-user"></span> Contacts</a></li>
-      </ul>
-    </div>
-  </div>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Alberto Testoni</title>
+<link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="site-header">
+<div class="header-inner">
+<a class="brand" href="index.html">Alberto Testoni</a>
+<div class="header-controls"><button aria-label="Toggle dark mode" class="theme-toggle" title="Toggle dark mode" type="button"><span aria-hidden="true" class="theme-icon">◐</span><span class="theme-text">Dark mode</span></button><button aria-expanded="false" aria-label="Toggle navigation" class="nav-toggle" type="button">Menu</button></div>
+<nav class="site-nav">
+<ul>
+<li><a class="active" href="index.html">Home</a></li>
+<li><a href="publications.html">Publications</a></li>
+<li><a href="experience.html">Experience</a></li>
+<li><a href="index.html#contact">Contact</a></li>
+</ul>
 </nav>
+</div>
+</header>
+<main class="page">
+<div class="container">
+<section class="hero">
+<div class="hero-media">
+<img alt="Portrait of Alberto Testoni" src="me_2.jpeg"/>
+</div>
+<div>
+<!-- <div class="eyebrow">Alberto Testoni</div> -->
+<h1>Dr. Alberto Testoni</h1>
+<div class="hero-copy">
+<!-- <p> I am a Postdoctoral Researcher in Responsible NLP and ML for Healthcare (<a href="https://nlp4health-lab.github.io/projects/carenlp_project/" style="color:#018a34;" target="_blank">CaRe-NLP</a>) at <a href="https://researchinformation.amsterdamumc.org/en/organisations/medical-informatics-amc" style="color:#018a34;" target="_blank"> Amsterdam UMC </a> and part of the <a href="https://nlp4health-lab.github.io/" style="color:#018a34;" target="_blank"> NLP4Health Lab </a> led by prof. Iacer Calixto. Previously, I worked as a Postdoctoral Researcher at the <a href="https://www.illc.uva.nl/" style="color:#018a34;" target="_blank"> Institute for Logic, Language and Computation - University of Amsterdam </a> and part of the <a href="https://dmg-illc.github.io/dmg/" style="color:#018a34;" target="_blank">Dialogue Modeling group</a> (led by <a href="https://staff.fnwi.uva.nl/r.fernandezrovira/" style="color:#018a34;" target="_blank">Raquel Fernández</a>). I got my PhD in Computer Science from the <a href="https://iecs.unitn.it/" style="color:#018a34;" target="_blank">IECS International Doctoral School</a> at the University of Trento, working under the supervision of <a href="http://disi.unitn.it/~bernardi/" style="color:#018a34;" target="_blank">Raffaella Bernardi</a>. Before that, I obtained an M.Sc. in Cognitive Science from <a href="https://www.cimec.unitn.it/en" style="color:#018a34;" target="_blank">CIMeC - University of Trento</a> and a B.Sc. in Computer Science from the <a href="https://www.unibo.it/en/homepage" style="color:#018a34;" target="_blank">University of Bologna</a>. My work lies at the intersection of various fields, including Natural Language Processing, Artificial Intelligence, and Cognitive Science. Specifically, my research focuses on developing more effective NLP systems inspired by human language use, especially in multimodal visually-grounded settings. </p> -->
 
-			</div>
-      <div id="all">
-			<div class="jumbotron" id="jumbo">
-      <div class="container">
-        <h1 id="name"> Alberto Testoni</h1>
-          <p style="color: black; font-weight: 300;" id="descr"> <img src="me_2.jpeg" id="me">I am a Postdoctoral Researcher in Responsible NLP and ML for Healthcare (<a href="https://nlp4health-lab.github.io/projects/carenlp_project/" target="_blank" style="color:#018a34;">CaRe-NLP</a>) at <a href="https://researchinformation.amsterdamumc.org/en/organisations/medical-informatics-amc" target="_blank" style="color:#018a34;"> Amsterdam UMC </a> and part of the <a href="https://nlp4health-lab.github.io/" target="_blank" style="color:#018a34;"> NLP4Health Lab </a> led by prof. Iacer Calixto. Previously, I worked as a Postdoctoral Researcher
-              at the <a href="https://www.illc.uva.nl/" target="_blank" style="color:#018a34;"> Institute for Logic, Language and Computation - University of Amsterdam </a> and part of the <a href="https://dmg-illc.github.io/dmg/" target="_blank" style="color:#018a34;">Dialogue Modeling group</a> (led by <a href="https://staff.fnwi.uva.nl/r.fernandezrovira/" target="_blank" style="color:#018a34;">Raquel Fernández</a>). I got my PhD in Computer Science from the <a href="https://iecs.unitn.it/" target="_blank" style="color:#018a34;">IECS International Doctoral School</a> at the University of Trento, working under the supervision of <a href="http://disi.unitn.it/~bernardi/" target="_blank" style="color:#018a34;">Raffaella Bernardi</a>. Before that, I obtained an M.Sc. in Cognitive Science from <a href="https://www.cimec.unitn.it/en" target="_blank" style="color:#018a34;">CIMeC - University of Trento</a> and a B.Sc. in Computer Science from the <a href="https://www.unibo.it/en/homepage" target="_blank" style="color:#018a34;">University of Bologna</a>.
-               My work lies at the intersection of various fields, including Natural Language Processing, Artificial Intelligence, and Cognitive Science. Specifically, my research focuses on developing more effective NLP systems inspired by human language use, especially in multimodal visually-grounded settings. Check out my full <a href="pub.html" style="color:#018a34;">list of publications</a> and feel free to <a href="#" data-toggle="modal" data-target="#contacts" style="color:#018a34;">get in touch</a>!</p>
-
-          <!-- My work lies at the intersection between different fields, such as Natural Language Processing, Artificial Intelligence and Cognitive Science; in particular, my research focuses on developing multimodal Vision & Language dialogue agents equipped with reasoning and planning skills. -->
-          <!-- training Deep Neural Networks from multi-modal data (language, vision and sound). Ex Research Scientist Intern at Amazon Alexa AI in Berlin (Natural Language Understanding) -->
-      </div>
-    </div>
-			<div class="aaa" id="page-container">
-    	<div class="row" style="margin-left:0px;" id="tabb">
-        	<div class="col-sm-6">
-                <div class="panel panel-default panel-home">
-                  <div class="panel-heading clearfix panel-heading-utility" id="tit_tab">News</div>
-									<ul id="lg1">
-            <p><li><img src="award.png" height="22" width="22"> <b>March 2026</b>: We received an <a href="https://aclanthology.org/2026.eacl-long.106/" rel="noopener noreferrer"> Outstanding Paper Award</a> at EACL 2026!</li></p>
-            <p><li><img src="paper.png" height="22" width="22"> <b>January 2026</b>: <a href="https://albertotestoni.github.io/pub.html" rel="noopener noreferrer"> New paper</a> accepted at EACL 2026!</li></p>
-			<p><li><img src="paper.png" height="22" width="22"> <b>August 2025</b>: <a href="https://albertotestoni.github.io/pub.html" rel="noopener noreferrer"> Two papers</a> accepted at EMNLP 2025!</li></p>
-            <p><li><img src="paper.png" height="22" width="22"> <b>June 2025</b>: <a href="https://albertotestoni.github.io/pub.html" rel="noopener noreferrer"> New preprint</a> on uncertainty and calibration in medical QA!</li></p>
-            <p><li><img src="paper.png" height="22" width="22"> <b>May 2025</b>: <a href="https://albertotestoni.github.io/pub.html" rel="noopener noreferrer"> Two papers</a> accepted at ACL 2025!</li></p>
-            <p><li><img src="paper.png" height="22" width="22"> <b>February 2025</b>: <a href="https://albertotestoni.github.io/pub.html" rel="noopener noreferrer"> New preprint</a> available on evaluating LLMs in Multi-Session Interactions!</li></p>
-            <p><li><img src="med.png" height="22" width="22"> <b>December 2024</b>: I joined the Deptartment of Medical Informatics at Amsterdam UMC as a Postdoctoral Researcher!</li></p>
-            <p><li><img src="paper.png" height="22" width="22"> <b>December 2024</b>: <a href="https://albertotestoni.github.io/pub.html" rel="noopener noreferrer"> New preprint</a> available on Referential Ambiguity in VQA.</li></p>
-            <p><li><img src="paper.png" height="22" width="22"> <b>June 2024</b>: <a href="https://albertotestoni.github.io/pub.html" rel="noopener noreferrer"> Two new preprints</a> available! (one paper appearing at EMNLP 2024)</li></p>
-            <p><li><img src="paper.png" height="22" width="22"> <b>May 2024</b>: <a href="https://albertotestoni.github.io/pub.html" rel="noopener noreferrer">Two papers</a> accepted at ACL 2024!</li></p>
-            <p><li><img src="paper.png" height="22" width="22"> <b>February-May 2024</b>: I served as Area Chair for ACL 2024 and LREC-COLING 2024.</li></p>
-            <p><li><img src="whiteboard.png" height="22" width="22"> <b>April-May 2024</b>: Teaching assistant of the course <a href="https://cl-illc.github.io/semantics-2024/" rel="noopener noreferrer">Advanced Topics in Computational Semantics </a> (UvA). </li></p>
-            <p><li><img src="paper.png" height="22" width="22"> <b>February 2024</b>: <a href="https://albertotestoni.github.io/pub.html" rel="noopener noreferrer">New paper</a> accepted at EACL 2024!</li></p>
-            <p><li><img src="paper.png" height="22" width="22"> <b>December 2023</b>: <a href="https://albertotestoni.github.io/pub.html" rel="noopener noreferrer">New paper</a> out in Cognitive Science!</li></p>
-            <p><li><img src="whiteboard.png" height="22" width="22"> <b>November 2023</b>: Invited talk at MPI - Nijmegen</li></p>
-            <p><li><img src="whiteboard.png" height="22" width="22"> <b>Oct-Dec 2023</b>: Guest lectures at UvA (Higher Cognitive Functions and NLP1)</li></p>
-            <p><li><img src="newspaper.png" height="22" width="22"> <b>April 2023</b>: A discussion about my PhD thesis is featured in the <a href="https://www.rsipvision.com/ComputerVisionNews-2023April/12/" rel="noopener noreferrer">Computer Vision News </a> magazine (pages 12-13)</li></p>
-            <p><li><img src="degree.png" height="22" width="22"> <b>February 2023</b>: I defended my PhD thesis and joined UvA-ILLC as a Postdoc!</li></p>
-            <p><li><img src="paper.png" height="22" width="22"> <b>October 2022</b>: <a href="https://albertotestoni.github.io/pub.html" rel="noopener noreferrer">New paper</a> accepted at NL4AI @ AI*IA!</li></p>
-            <p><li><img src="paper.png" height="22" width="22"> <b>September 2022</b>: <a href="https://albertotestoni.github.io/pub.html" rel="noopener noreferrer">New papers</a> accepted at COLING and (Dis)embodiment!</li></p>
-            <p><li><img src="paper.png" height="22" width="22"> <b>June 2022</b>: <a href="https://albertotestoni.github.io/pub.html" rel="noopener noreferrer">New paper</a> accepted at IJCOL!</li></p>
-            <p><li><img src="paper.png" height="22" width="22"> <b>June 2022</b>: <a href="https://albertotestoni.github.io/pub.html" rel="noopener noreferrer">New paper</a> accepted at INLG 2022!</li></p>
-            <p><li><img src="robot_icon.png" height="22" width="22"> <b>April 2022</b>: I started an internship at Amazon Alexa AI in Berlin.</li></p>
-            <p><li><img src="paper.png" height="22" width="22"> <b>January 2022</b>: <a href="https://albertotestoni.github.io/pub.html" rel="noopener noreferrer">New paper</a> out in Frontiers in Big Data!</li></p>
-            <p><li><img src="paper.png" height="22" width="22"> <b>August 2021</b>: Check our new EMNLP 2021 paper!</li></p>
-            <p><li><img src="paper.png" height="22" width="22"> <b>July 2021</b>: Check our new ACL-SRW and SpLU-RoboNLP papers!</li></p>
-            <p><li><img src="paper.png" height="22" width="22"> <b>March 2021</b>: We got a Special Mention @ CLIC-it!</li></p>
-            <p><li><img src="paper.png" height="22" width="22"> <b>January 2021</b>: Paper acceapted at EACL2021!</li></p>
-		    <p><li><img src="paper.png" height="22" width="22"> <b>September 2020</b>: Check out our <a href="pub.html" style="color:#018a34;">latest publications</a> (ALVR, SpLU, AI*IA, CLIC-it).</li></p>
-		    <p><li><img src="degree.png" height="22" width="22"> <b>September 2019</b>: I started my Ph.D.</li></p>
-                    <p><li><img src="degree.png" height="22" width="22"> <b>July 2019</b>: I got my Ms.C. in Cognitive Science.</li></p>
-                    <p><li><img src="paper.png" height="22" width="22"> <b>July 2019</b>: <a href="pub.html" style="color:#018a34;">one paper</a> accepted at SemDial2019.</li></p>
-                    <p><li><img src="paper.png" height="22" width="22"> <b>February 2019</b>: <a href="pub.html" style="color:#018a34;">one paper</a> accepted at CMCL2019 co-located with NAACL.</li></p>
-                  </ul>
-                </div>
-
-            </div>
-            <div class="col-sm-6">
-                <div class="panel panel-default panel-home">
-                  <div class="panel-heading clearfix panel-heading-utility" id="tit_tab">Contacts</div>
-									<ul id="lg2">
-                    <p><li><img src="email.png" height="22" width="22"> <b>Personal email</b>: a.testoni [AT] amsterdamumc [DOT] nl</li></p>
-                    <p><li><img src="scholar.png" height="22" width="22"> <b>Google Scholar</b>: <span> </span> <a href="https://scholar.google.com/citations?user=gGdWaH4AAAAJ&hl=en" target="_blank">Alberto Testoni</a></li></p>
-                    <p><li><img src="LinkedIn_icon.png" height="22" width="22"> <b>LinkedIn</b>: <span> </span> <a href="https://www.linkedin.com/in/alberto-testoni-4785a2369/" target="_blank">Alberto Testoni</a></li></p>
-                    <p><li><img src="ss.png" height="22" width="22"> <b>Semantic Scholar</b>: <a href="https://www.semanticscholar.org/author/A.-Testoni/50829868" target="_blank">Alberto Testoni</a></li></p>
-                    <p><li><img src="twitter.png" height="22" width="22"> <b>Twitter/X</b>: <a href="https://twitter.com/alberto_testoni" target="_blank">alberto_testoni</a></li></p>
-                  </ul>
-                </div>
-
-            </div>
-
-        	<!-- <div class="col-sm-4">
-                <div class="panel panel-default panel-home">
-                     <div class="panel-heading">Author</div>
-										 <ul class="list-group" id="lg3">
-	                   </ul>
-                </div>
-          </div> -->
-        </div>
-			</div>
-    </div>
-
-<script>
-function pub() {
-  $("#all").load("pub.html");
-}
-</script>
-
-        <!-- <script type="text/javascript" src="js/documents.js"  ></script>
-        <script type="text/javascript" src="js/home.js"></script> -->
-    </body>
-
-<div id="contacts" class="modal fade" aria-hidden="true">
-<div class="modal-dialog">
-    <div class="modal-content">
-        <div class="modal-header">
-            <button data-dismiss="modal" class="close" type="button"><span aria-hidden="true">×</span></button>
-            <h4 class="modal-title">Contacts</h4>
-        </div>
-        <div class="modal-body">
-            <li><b>Personal email</b>: a.testoni [AT] amsterdamumc [DOT] nl</li>
-                    <li><b>Google Scholar</b>: <a href="https://scholar.google.com/citations?user=gGdWaH4AAAAJ&hl=en" target="_blank">Alberto Testoni</a></li>
-                    <li><b>ResearchGate</b>: <a href="https://www.researchgate.net/profile/Alberto_Testoni" target="_blank">Alberto Testoni</a></li>
-                    <li><b>Twitter</b>: <a href="https://twitter.com/alberto_testoni" target="_blank">alberto_testoni</a></li>
-                    
-        </div>
-    </div><!-- /.modal-content -->
-</div><!-- /.modal-dialog -->
+<div class="hero-copy">
+<p>I am a Postdoctoral Researcher in Responsible NLP and ML for Healthcare (<a href="https://nlp4health-lab.github.io/projects/carenlp_project/" style="color:#018a34;" target="_blank">CaRe-NLP</a> project) at <a href="https://researchinformation.amsterdamumc.org/en/organisations/medical-informatics-amc" style="color:#018a34;" target="_blank">Amsterdam UMC</a>, part of the <a href="https://nlp4health-lab.github.io/" style="color:#018a34;" target="_blank">NLP4Health Lab</a> led by prof. Iacer Calixto. My research focuses on making generative AI models more reliable, specifically on uncertainty estimation, calibration, and safe deployment of Large Language Models (LLMs) in healthcare. Before joining Amsterdam UMC, I was a Postdoctoral Researcher at the <a href="https://www.illc.uva.nl/" style="color:#018a34;" target="_blank">Institute for Logic, Language and Computation - University of Amsterdam</a>, working with <a href="https://staff.fnwi.uva.nl/r.fernandezrovira/" style="color:#018a34;" target="_blank">Raquel Fernández</a> on evaluating and improving the multimodal and interactive capabilities of LLMs. I hold a PhD in Computer Science from the <a href="https://iecs.unitn.it/" style="color:#018a34;" target="_blank">University of Trento</a> (supervised by <a href="http://disi.unitn.it/~bernardi/" style="color:#018a34;" target="_blank">Raffaella Bernardi</a>), an MSc in Cognitive Science from <a href="https://www.cimec.unitn.it/en" style="color:#018a34;" target="_blank">CIMeC - University of Trento</a>, and a BSc in Computer Science from the <a href="https://www.unibo.it/en/homepage" style="color:#018a34;" target="_blank">University of Bologna</a>.
 </div>
 
+</div>
+<div class="hero-actions">
+<a class="button primary" href="publications.html">View full publication list</a>
+<a class="button" href="experience.html">Experience</a>
+<a class="button" href="#contact">Contact details</a>
+</div>
+</div>
+</section>
+<section class="main-grid section">
+<article class="card">
+<div class="card-header">
+<h2>Recent publications</h2>
+<a href="publications.html">All publications</a>
+</div>
+<div class="card-content">
+<ul class="pub-list">
+<li><div class="pub-item"><b>Testoni, A.</b>, Calixto, I.,<i> Mind the Gap: Benchmarking LLM Uncertainty and Calibration with Specialty-Aware Clinical QA and Reasoning-Based Behavioural Features. </i> <b>(Outstanding Paper Award)</b> Proceedings of the 19th Conference of the European Chapter of the Association for Computational Linguistics (Volume 1: Long Papers), EACL 2026. <a href="https://aclanthology.org/2026.eacl-long.106/" rel="noopener noreferrer" target="_blank">[PDF]</a></div></li><li><div class="pub-item"><b>Testoni, A.</b>, Plank, B., Fernández, R.,<i> RAcQUEt: Unveiling the Dangers of Overlooked Referential Ambiguity in Visual LLMs. </i> Proceedings of The 2025 Conference on Empirical Methods in Natural Language Processing, EMNLP 2025 <a href="https://aclanthology.org/2025.emnlp-main.1206/" rel="noopener noreferrer" target="_blank">[PDF]</a></div></li><li><div class="pub-item">Horst, N., Mazzaccara, D., Schmidt, A., Sullivan, M., Momentè, F., Franceschetti, L., Sadler, P., Hakimov, S., <b>Testoni, A.</b>, Bernardi, R., Fernández, R., Koller, A., Lemon, O., Schlangen, D., Giulianelli, M., Suglia, A., <i>Playpen: An Environment for Exploring Learning Through Conversational Interaction. </i> Proceedings of The 2025 Conference on Empirical Methods in Natural Language Processing, EMNLP 2025 <a href="https://aclanthology.org/2025.emnlp-main.1517/" rel="noopener noreferrer" target="_blank">[PDF]</a></div></li>
+</ul>
+</div>
+</article>
+<article class="card">
+<div class="card-header">
+<h2>News</h2>
+</div>
+<div class="card-content">
+<div class="news-scroll">
+<ul class="news-list">
+<li><div class="news-item"><img height="22" src="award.png" width="22"/><div class="news-text"><b>March 2026</b>: We received an <a href="https://aclanthology.org/2026.eacl-long.106/" rel="noopener noreferrer"> Outstanding Paper Award</a> at EACL 2026!</div></div></li><li><div class="news-item"><img height="22" src="paper.png" width="22"/><div class="news-text"><b>January 2026</b>: <a href="publications.html" rel="noopener noreferrer"> New paper</a> accepted at EACL 2026!</div></div></li><li><div class="news-item"><img height="22" src="paper.png" width="22"/><div class="news-text"><b>August 2025</b>: <a href="publications.html" rel="noopener noreferrer"> Two papers</a> accepted at EMNLP 2025!</div></div></li><li><div class="news-item"><img height="22" src="paper.png" width="22"/><div class="news-text"><b>June 2025</b>: <a href="publications.html" rel="noopener noreferrer"> New preprint</a> on uncertainty and calibration in medical QA!</div></div></li><li><div class="news-item"><img height="22" src="paper.png" width="22"/><div class="news-text"><b>May 2025</b>: <a href="publications.html" rel="noopener noreferrer"> Two papers</a> accepted at ACL 2025!</div></div></li><li><div class="news-item"><img height="22" src="paper.png" width="22"/><div class="news-text"><b>February 2025</b>: <a href="publications.html" rel="noopener noreferrer"> New preprint</a> available on evaluating LLMs in Multi-Session Interactions!</div></div></li><li><div class="news-item"><img height="22" src="med.png" width="22"/><div class="news-text"><b>December 2024</b>: I joined the Deptartment of Medical Informatics at Amsterdam UMC as a Postdoctoral Researcher!</div></div></li><li><div class="news-item"><img height="22" src="paper.png" width="22"/><div class="news-text"><b>December 2024</b>: <a href="publications.html" rel="noopener noreferrer"> New preprint</a> available on Referential Ambiguity in VQA.</div></div></li><li><div class="news-item"><img height="22" src="paper.png" width="22"/><div class="news-text"><b>June 2024</b>: <a href="publications.html" rel="noopener noreferrer"> Two new preprints</a> available! (one paper appearing at EMNLP 2024)</div></div></li><li><div class="news-item"><img height="22" src="paper.png" width="22"/><div class="news-text"><b>May 2024</b>: <a href="publications.html" rel="noopener noreferrer">Two papers</a> accepted at ACL 2024!</div></div></li><li><div class="news-item"><img height="22" src="paper.png" width="22"/><div class="news-text"><b>February-May 2024</b>: I served as Area Chair for ACL 2024 and LREC-COLING 2024.</div></div></li><li><div class="news-item"><img height="22" src="whiteboard.png" width="22"/><div class="news-text"><b>April-May 2024</b>: Teaching assistant of the course <a href="https://cl-illc.github.io/semantics-2024/" rel="noopener noreferrer">Advanced Topics in Computational Semantics </a> (UvA).</div></div></li><li><div class="news-item"><img height="22" src="paper.png" width="22"/><div class="news-text"><b>February 2024</b>: <a href="publications.html" rel="noopener noreferrer">New paper</a> accepted at EACL 2024!</div></div></li><li><div class="news-item"><img height="22" src="paper.png" width="22"/><div class="news-text"><b>December 2023</b>: <a href="publications.html" rel="noopener noreferrer">New paper</a> out in Cognitive Science!</div></div></li><li><div class="news-item"><img height="22" src="whiteboard.png" width="22"/><div class="news-text"><b>November 2023</b>: Invited talk at MPI - Nijmegen</div></div></li><li><div class="news-item"><img height="22" src="whiteboard.png" width="22"/><div class="news-text"><b>Oct-Dec 2023</b>: Guest lectures at UvA (Higher Cognitive Functions and NLP1)</div></div></li><li><div class="news-item"><img height="22" src="newspaper.png" width="22"/><div class="news-text"><b>April 2023</b>: A discussion about my PhD thesis is featured in the <a href="https://www.rsipvision.com/ComputerVisionNews-2023April/12/" rel="noopener noreferrer">Computer Vision News </a> magazine (pages 12-13)</div></div></li><li><div class="news-item"><img height="22" src="degree.png" width="22"/><div class="news-text"><b>February 2023</b>: I defended my PhD thesis and joined UvA-ILLC as a Postdoc!</div></div></li><li><div class="news-item"><img height="22" src="paper.png" width="22"/><div class="news-text"><b>October 2022</b>: <a href="publications.html" rel="noopener noreferrer">New paper</a> accepted at NL4AI @ AI*IA!</div></div></li><li><div class="news-item"><img height="22" src="paper.png" width="22"/><div class="news-text"><b>September 2022</b>: <a href="publications.html" rel="noopener noreferrer">New papers</a> accepted at COLING and (Dis)embodiment!</div></div></li><li><div class="news-item"><img height="22" src="paper.png" width="22"/><div class="news-text"><b>June 2022</b>: <a href="publications.html" rel="noopener noreferrer">New paper</a> accepted at IJCOL!</div></div></li><li><div class="news-item"><img height="22" src="paper.png" width="22"/><div class="news-text"><b>June 2022</b>: <a href="publications.html" rel="noopener noreferrer">New paper</a> accepted at INLG 2022!</div></div></li><li><div class="news-item"><img height="22" src="robot_icon.png" width="22"/><div class="news-text"><b>April 2022</b>: I started an internship at Amazon Alexa AI in Berlin.</div></div></li><li><div class="news-item"><img height="22" src="paper.png" width="22"/><div class="news-text"><b>January 2022</b>: <a href="publications.html" rel="noopener noreferrer">New paper</a> out in Frontiers in Big Data!</div></div></li><li><div class="news-item"><img height="22" src="paper.png" width="22"/><div class="news-text"><b>August 2021</b>: Check our new EMNLP 2021 paper!</div></div></li><li><div class="news-item"><img height="22" src="paper.png" width="22"/><div class="news-text"><b>July 2021</b>: Check our new ACL-SRW and SpLU-RoboNLP papers!</div></div></li><li><div class="news-item"><img height="22" src="paper.png" width="22"/><div class="news-text"><b>March 2021</b>: We got a Special Mention @ CLIC-it!</div></div></li><li><div class="news-item"><img height="22" src="paper.png" width="22"/><div class="news-text"><b>January 2021</b>: Paper acceapted at EACL2021!</div></div></li><li><div class="news-item"><img height="22" src="paper.png" width="22"/><div class="news-text"><b>September 2020</b>: Check out our <a href="publications.html" style="color:#018a34;">latest publications</a> (ALVR, SpLU, AI*IA, CLIC-it).</div></div></li><li><div class="news-item"><img height="22" src="degree.png" width="22"/><div class="news-text"><b>September 2019</b>: I started my Ph.D.</div></div></li><li><div class="news-item"><img height="22" src="degree.png" width="22"/><div class="news-text"><b>July 2019</b>: I got my Ms.C. in Cognitive Science.</div></div></li><li><div class="news-item"><img height="22" src="paper.png" width="22"/><div class="news-text"><b>July 2019</b>: <a href="publications.html" style="color:#018a34;">one paper</a> accepted at SemDial2019.</div></div></li><li><div class="news-item"><img height="22" src="paper.png" width="22"/><div class="news-text"><b>February 2019</b>: <a href="publications.html" style="color:#018a34;">one paper</a> accepted at CMCL2019 co-located with NAACL.</div></div></li>
+</ul>
+</div>
+</div>
+</article>
+</section>
+<section class="card anchor-offset" id="contact">
+<div class="card-header">
+<h2>Get in touch</h2>
+</div>
+<div class="card-content">
+<div class="contact-grid">
+<a class="contact-card" href="mailto:a.testoni@amsterdamumc.nl"><span aria-hidden="true" class="contact-icon"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M4 6h16v12H4z"></path><path d="m4 8 8 6 8-6"></path></svg></span>
+<span><span class="contact-label">Email</span><span class="contact-value">a.testoni@amsterdamumc.nl</span></span>
+</a>
+<a class="contact-card" href="https://www.linkedin.com/in/alberto-testoni-4785a2369/" rel="noopener noreferrer" target="_blank"><span aria-hidden="true" class="contact-icon"><svg fill="currentColor" viewbox="0 0 24 24"><path d="M6.94 8.5H3.56V20h3.38V8.5ZM5.25 3A2.03 2.03 0 0 0 3.2 5.03 2.03 2.03 0 0 0 5.25 7.1 2.03 2.03 0 0 0 7.3 5.03 2.03 2.03 0 0 0 5.25 3ZM20.8 13.06c0-3.46-1.85-5.07-4.32-5.07-1.99 0-2.88 1.1-3.38 1.87V8.5H9.73V20h3.37v-6.4c0-1.69.32-3.33 2.42-3.33 2.08 0 2.11 1.95 2.11 3.44V20H21v-6.94Z"></path></svg></span>
+<span><span class="contact-label">LinkedIn</span><span class="contact-value">Alberto Testoni</span></span>
+</a>
+<a class="contact-card" href="https://scholar.google.com/citations?user=gGdWaH4AAAAJ&amp;hl=en" rel="noopener noreferrer" target="_blank"><span aria-hidden="true" class="contact-icon"><svg fill="currentColor" viewbox="0 0 24 24"><path d="M12 3 2 9l10 6 8-4.8V17h2V9L12 3Zm-5 9.9V17c0 1.9 2.2 3.5 5 3.5s5-1.6 5-3.5v-4.1l-5 3-5-3Z"></path></svg></span>
+<span><span class="contact-label">Google Scholar</span><span class="contact-value">Alberto Testoni</span></span>
+</a>
+<a class="contact-card" href="https://twitter.com/alberto_testoni" rel="noopener noreferrer" target="_blank"><span aria-hidden="true" class="contact-icon"><svg fill="currentColor" viewbox="0 0 24 24"><path d="M18.9 2H22l-6.77 7.73L23 22h-6.1l-4.77-6.25L6.66 22H3.54l7.24-8.27L1.6 2h6.25l4.31 5.69L18.9 2Zm-1.07 18h1.69L6.93 3.9H5.11L17.83 20Z"></path></svg></span>
+<span><span class="contact-label">Twitter</span><span class="contact-value">@alberto_testoni</span></span>
+</a>
+</div></div>
+</section></div>
+
+
+</main>
+<script>
+  const root = document.documentElement;
+  const themeToggle = document.querySelector('.theme-toggle');
+  const themeText = document.querySelector('.theme-toggle .theme-text');
+  const storedTheme = localStorage.getItem('theme');
+
+  if (storedTheme === 'light' || storedTheme === 'dark') {
+    root.setAttribute('data-theme', storedTheme);
+  }
+
+  function getEffectiveTheme() {
+    const explicit = root.getAttribute('data-theme');
+    if (explicit === 'light' || explicit === 'dark') return explicit;
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  }
+
+  function updateThemeButton() {
+    if (!themeText) return;
+    const effective = getEffectiveTheme();
+    themeText.textContent = effective === 'dark' ? 'Light mode' : 'Dark mode';
+  }
+
+  updateThemeButton();
+
+  if (themeToggle) {
+    themeToggle.addEventListener('click', () => {
+      const next = getEffectiveTheme() === 'dark' ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+      updateThemeButton();
+    });
+  }
+
+  const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+  if (mediaQuery.addEventListener) {
+    mediaQuery.addEventListener('change', () => {
+      if (!localStorage.getItem('theme')) updateThemeButton();
+    });
+  }
+
+  const navToggle = document.querySelector('.nav-toggle');
+  const siteNav = document.querySelector('.site-nav');
+  if (navToggle && siteNav) {
+    navToggle.addEventListener('click', () => {
+      siteNav.classList.toggle('open');
+      navToggle.setAttribute('aria-expanded', siteNav.classList.contains('open') ? 'true' : 'false');
+    });
+  }
+</script>
+</body>
 </html>
