@@ -1,4 +1,3 @@
-
 :root {
   --bg: #f5f7fb;
   --bg-grad-top: #fbfcff;
@@ -436,6 +435,34 @@ img { max-width: 100%; display: block; }
   .theme-toggle .theme-text { display: inline; }
   .theme-toggle { font-size: 0.92rem; padding: 0.55rem 0.68rem; }
 }
+.pub-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  transition: background 0.15s, transform 0.15s;
+  vertical-align: middle;
+  margin-left: 0.3rem;
+}
+.pub-link:hover {
+  background: color-mix(in srgb, var(--accent-soft) 70%, var(--accent));
+  color: #fff;
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+.pub-link svg {
+  width: 0.82rem;
+  height: 0.82rem;
+  flex-shrink: 0;
+}
+
 html[data-theme="dark"] .news-item img,
 :root:is([data-theme="dark"]) .news-item img {
   filter: invert(1) brightness(1.8);
