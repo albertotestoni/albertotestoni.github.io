@@ -472,3 +472,10 @@ html[data-theme="dark"] .news-item img,
     filter: invert(1) brightness(1.8);
   }
 }
+
+@media (max-width: 760px) {
+  .news-scroll {
+    max-height: 13.5rem;
+    overflow-y: auto;
+  }
+}
