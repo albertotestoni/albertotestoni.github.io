@@ -566,3 +566,66 @@ html[data-theme="dark"] .news-item img,
   border-radius: 999px;
   background: var(--accent-soft);
 }
+
+/* --- Fix spacing in Selected Publications card --- */
+
+/* Reduce top/bottom padding of the card content */
+.recent-publications-card .card-content {
+  padding: 0.2rem 1.4rem 0.8rem;
+}
+
+/* Keep spacing between items, but tighter */
+.pub-item {
+  padding: 0.7rem 0;
+}
+
+/* Remove extra space after the last publication */
+.pub-list li:last-child .pub-item {
+  padding-bottom: 0.2rem;
+}
+
+/* Make footer sit closer to the list */
+.pub-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.2rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--line);
+}
+
+/* Optional: make button slightly softer (if not already) */
+.pub-footer .button {
+  background: var(--accent-soft);
+  border: none;
+}
+
+.publications-page .scholar-note {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.45rem 0.9rem;
+  margin: 0 0 1rem 0;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.98rem;
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid color-mix(in srgb, var(--accent) 16%, var(--line));
+}
+
+.publications-page .scholar-note:hover {
+  text-decoration: none;
+  background: color-mix(in srgb, var(--accent-soft) 75%, var(--surface-solid));
+}
+
+.publications-page .scholar-note {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.45rem 0.9rem;
+  margin: 0.6rem 0 1rem 0;  /* 👈 key fix here */
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.98rem;
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid color-mix(in srgb, var(--accent) 16%, var(--line));
+}
