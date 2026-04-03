@@ -479,3 +479,34 @@ html[data-theme="dark"] .news-item img,
     overflow-y: auto;
   }
 }
+
+.pub-footer {
+  padding: 0.8rem 0 0;
+  margin-top: 0.4rem;
+  border-top: 1px solid var(--line);
+  text-align: center;
+}
+.pub-footer-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: background 0.15s, transform 0.15s;
+}
+.pub-footer-link:hover {
+  background: color-mix(in srgb, var(--accent-soft) 70%, var(--accent));
+  color: #fff;
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+.pub-footer-link svg {
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
+}
